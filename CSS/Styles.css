@@ -1,0 +1,71 @@
+/*Homepage*/
+
+.body{
+    background-color: #FAFAFA;
+}
+.navbar-text{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text1{
+   
+    font-family:'Raleway', sans-serif;
+   
+    font-style:inherit;
+    color: #58595b;
+    font-weight:600;
+    font-size: 12px;
+    padding-bottom: 5px;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.navbar-brand{
+    justify-content: center;
+    align-self: center;
+    position: relative;
+  max-width: 100%;
+  height: auto;
+   
+}
+.icons{
+    text-align: center;
+}
+
+.icon4{
+    border-radius: 50px;
+    padding: 8px;
+    font-size: 13px;
+}
+
+.icon1{
+margin-left: 10px;
+margin-right: 10px;
+margin: auto;
+color: #c8c8c8;
+}
+
+.Mycontainer{
+    background-color: #FAFAFA;
+ 
+}
+
+.link1{
+    color:#58595b;
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-toggler.t1{
+    background-color:#FAFAFA;
+     color: #c8c8c8;
+     border-color: rgba(0,0,0,.1);
+     
+}
+#parallax{
+    background-image: url(Images/HomePageImages/01.png), url(Images/HomePageImages/02.png),url(Images/HomePageImages/03.png),url(Images/HomePageImages/04.png);
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+}
