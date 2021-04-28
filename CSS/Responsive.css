@@ -1,0 +1,48 @@
+/* */
+ @media (min-width: 768px) { 
+    
+.btnsearch{  
+    border-color: #FAFAFA;
+    background-color: #ff0013 !important;
+    color: white !important;  
+}
+
+.col-lg-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+
+.search-form {
+
+    position: absolute;
+    left:50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 40%;
+    }
+
+    }
+
+@media only screen and (max-width: 559.9px){
+
+    a.logo-a img {
+        width: 120px;
+        padding-bottom: 5px;
+    }
+}
+ 
+@media (min-width: 992px){
+
+ 
+} 
+
+@media only screen and (max-width: 991.9px){
+.top-bar-main {
+    display: block;
+}
+}

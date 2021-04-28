@@ -2,167 +2,390 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap 4 Website Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  
-  
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/ulg/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-    <link rel="stylesheet" href="CSS/Styles.css">
-    <link rel="stylesheet" href="CSS/Responsive.css">
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/ulg/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="CSS/Styles.css">
+  <link rel="stylesheet" href="CSS/Responsive.css">
+  <link rel="stylesheet" href="JS.js">
+
 
 </head>
 
 <body>
-    <!-- The top navigation bar-->
-    <div class="container-fluid" style="background-color: #f2f2f2;color: black ;">
-        <div class="container MainMenu" style="background-color: #f2f2f2;color: black ;">
-            <div class="row">
-                <form class="form-inline">
-                <div class="col-md-12 col-lg-3 col-sm-12 col-xs-12" style="text-align:end;">
-                    <a class="navbar-brand" href="#"><img src="Images/HomePageImages/top-travelles-logo.png"
-                            alt="Logo"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
+  <!-- The top navigation bar-->
+  <section id="top-bar" class="top-bar-section">
+    <div class="container top-bar-main">
 
-                <div class="col-md-12 col-lg-5 col-sm-12 col-xs-12 " style="text-align: center;">
-                    <span class="navbar-text mr-auto text1" >
-                        <p>The Largest Travellers Marketplace</p>
-                    </span>
-                </div>
- 
-                <div class="col-md-12 col-lg-4 col-sm-12 col-xs-12 " style="text-align: center;">
-                    <form class="form-inline"   > 
-                        <ul class="Icons">
-                       
-                            <a class="icon" 
-                                href="#"
-                               > <i class='fas'>&#xf891;</i></a>
-                      
-                       
-                            <a class="icon1"
-                                href="#"
-                               > <i class="far fa-heart "></i></a>
-                      
-                     
-                            <a class="icon1"
-                                href="#"
-                             > <i class="fas fa-shopping-basket "></i></a>
-                       
-                     
-                        <a class="btn btn-outline-danger my-2 my-sm-0 icon4"
-                            style="background-color: #ff0013; color:#FAFAFA;" type="submit">Add travel deal +</a>
-                     
-                    </ul>
-                    </form>
-                </div>
-            </form>
-            </div>
-        </div>
+
+      <div class="col-md-12 col-lg-3 col-sm-12 col-xs-12 top-main">
+        <a href="https://travellers.lk" class="logo-a"><img class="logo-img"
+            src="Images/HomePageImages/top-travelles-logo.png">
+        </a>
+      </div>
+      <div class="col-md-12 col-lg-5 col-sm-12 col-xs-12 top-main">
+        <p>The Largest Travellers Marketplace</p>
+      </div>
+      <div class="col-md-12 col-lg-4 col-sm-12 col-xs-12 top-main">
+        <ul class="main-icons">
+          <li class="icon01">
+            <a id="headerCompare" class="icon01-link" href="javascript;;"><i class="fav  fa-spell-check"
+                aria-hidden="true"></i></a>
+          </li>
+          <li class="icon01">
+            <a class="icon01-link" href="https://travellers.lk/wish-list"> <i class="far fa-heart"
+                aria-hidden="true"></i></a>
+          </li>
+
+          <li class="icon01">
+            <a class="icon01-link" href="https://travellers.lk/cart"><i class="fas fa-shopping-basket"
+                aria-hidden="true"></i> <span id="mini-cart-count">
+                0 </span>
+            </a>
+          </li>
+
+          <li class="icon01">
+            <a class="icon01-link" href="https://travellers.lk/wish-list"> <img class="profile-photo"
+                src="Images/HomePageImages/ProfilePhoto.jpg " style="border-radius: 100% ;height: 30px; width: 30px;"
+                aria-hidden="true"></a>
+          </li>
+          <li class="icon01">
+            <a class="icon01-link Add-Travel-Deal" href="https://travellers.lk/dashboard">Add Travel Deal +</a>
+          </li>
+
+        </ul>
+
+      </div>
     </div>
+  </section>
 
-<!-- The Second navigation bar-->
+  <!-- The Second navigation bar-->
 
 
-<div class="container-fluid Mycontainer">
+  <div class="container-fluid Mycontainer">
     <div class="container Mycontainer">
-        <nav class="navbar navbar-expand-sm bg-transparent justify-content-end">
+      <nav class="navbar navbar-expand-sm bg-transparent justify-content-end">
 
-            <button class="navbar-toggler t1" type="button"
-                data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
-                <ul class="navbar-nav " >
-            
-            
-                    <li class="nav-item ">
-                        <a class="nav-link link1" href="#">Marketplace</a>
-                    </li>
-            
-            
-                    <li class="nav-item">
-                        <a class="nav-link  link1" href="#">Store List</a>
-                    </li>
-            
-            
-            
-                    <li class="nav-item dropdown link1">
-                        <a class="nav-link dropdown-toggle link1" href="#" data-toggle="dropdown">
-                            Help
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item"
-                                href="file:///C:/Users/Ashfak/Documents/AdobeXD%20Designing/Week7/ShoeShop-Bootstrap/BlogsPage.html">How It Works </a>
-            
-                        </div>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item"
-                                href="file:///C:/Users/Ashfak/Documents/AdobeXD%20Designing/Week7/ShoeShop-Bootstrap/BlogsPage.html">How to add travel deal</a>
-            
-                        </div>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item"
-                                href="file:///C:/Users/Ashfak/Documents/AdobeXD%20Designing/Week7/ShoeShop-Bootstrap/BlogsPage.html">Contact us</a>
-            
-                        </div>
-                    </li>
-            
-                </ul>
-            </div>
-            <br> 
-        
-        </nav>
+        <button class="navbar-toggler t1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+          <ul class="navbar-nav ">
+
+
+            <li class="nav-item ">
+              <a class="nav-link link1" href="#">Marketplace</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link  link1" href="#">Store List</a>
+            </li>
+
+
+
+            <li class="nav-item dropdown link1">
+              <a class="nav-link dropdown-toggle link1" href="#" data-toggle="dropdown">
+                Help
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item"
+                  href="file:///C:/Users/Ashfak/Documents/AdobeXD%20Designing/Week7/ShoeShop-Bootstrap/BlogsPage.html">How
+                  It Works </a>
+
+              </div>
+              <div class="dropdown-menu">
+                <a class="dropdown-item"
+                  href="file:///C:/Users/Ashfak/Documents/AdobeXD%20Designing/Week7/ShoeShop-Bootstrap/BlogsPage.html">How
+                  to add travel deal</a>
+
+              </div>
+              <div class="dropdown-menu">
+                <a class="dropdown-item"
+                  href="file:///C:/Users/Ashfak/Documents/AdobeXD%20Designing/Week7/ShoeShop-Bootstrap/BlogsPage.html">Contact
+                  us</a>
+
+              </div>
+            </li>
+
+          </ul>
+        </div>
+        <br>
+
+      </nav>
 
     </div>
-</div>
-<section id="parallax">
-    <img class="Main-image" >
-        <img class="img-fluid"  style="position:absolute;" src="Images/HomePageImages/01.png">
-        <img class="img-fluid"  style="position:absolute;" src="Images/HomePageImages/02.png">
-        <img class="img-fluid"  style="position:absolute;" src="Images/HomePageImages/04.png">
-        <br> 
-         
-</section>
+  </div>
+  <div class="parallax">
+    <img class="Main-image">
+    <img class="img-fluid" style="position:absolute;" src="Images/HomePageImages/01.png">
+    <img class="img-fluid" style="position:absolute;" src="Images/HomePageImages/02.png">
+    <img class="img-fluid" style="position:absolute;" src="Images/HomePageImages/04.png">
+    <br>
+
+  </div>
 
 
-<section class="RedArea">
+  <section class="RedArea">
     <div class="Area1">
-    </div>    
+    </div>
 
 
-<form class="search-form" action="https://travellers.lk/">
-	<input required="" class="form-control" type="text" placeholder="Search">
-	<input type="hidden">	<button type="submit" class="btnsearch"><i class="fas fa-search" aria-hidden="true"></i></button>
-</form>
-</section>
+    <form class="search-form" action="https://travellers.lk/">
+      <input required="" class="form-control" type="text" placeholder="Search">
+      <input type="hidden"> <button type="submit" class="btnsearch"><i class="fas fa-search"
+          aria-hidden="true"></i></button>
+    </form>
+  </section>
 
-<!--Categories Section-->
-<div class="container">
+
+  <!--Categories Section-->
+
+  <div class="container category">
     <div class="categories">
-        <div class="row">
-            <div class="col-md-6 col-sm-12">
+      <div class="row r1">
+        <div class="col-md-6 col-sm-12">
           <div class="row">
-            <div class="col-md-6 col-sm-12">
-          </div>
-                
+            <button class="col-md-3 col-sm-3 col-6 single-cat " type="button" id="dropdownMenu1" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-umbrella-beach" aria-hidden="true"></i>
+              Holiday Package
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <a class="dropdown-item" href="https://travellers.lk/product-category/foreign-tour-package/">Foreign tour
+                package</a>
+              <a class="dropdown-item" href="https://travellers.lk/product-category/local-tour-package/">Local tour
+                package</a>
             </div>
+
+            <a class="col-md-3 col-sm-3 col-6 single-cat" href="https://travellers.lk/product-category/hotels/"><i
+                class="fas fa-bed" aria-hidden="true"></i>
+              Hotels
+            </a>
+            <a class="col-md-3 col-sm-3 col-6 single-cat" href="https://travellers.lk/product-category/flights/"><i
+                class="fas fa-plane" aria-hidden="true"></i>
+              Flights
+            </a>
+            <a class="col-md-3 col-sm-3 col-6 single-cat" href="https://travellers.lk/product-category/cruise/"><i
+                class="fas fa-ship" aria-hidden="true"></i>
+              Cruise
+            </a>
+
+          </div>
         </div>
 
-    </div>
-</div>
+        <div class="col-md-6 col-sm-12">
+          <div class="row">
+            <a class="col-md-3 col-sm-3 col-6 single-cat" href="https://travellers.lk/product-category/rentalcars/"> <i
+                class="fas fa-car" aria-hidden="true"></i>
+              Rental Cars
+            </a>
+            <a class="col-md-3 col-sm-3 col-6 single-cat" href="https://travellers.lk/product-category/visaservices/">
+              <i class="fas fa-passport" aria-hidden="true"></i>
+              Visa Services
+            </a>
+            <a class="col-md-3 col-sm-3 col-6 single-cat"
+              href="https://travellers.lk/product-category/travel-products/"> <i class="fas fa-campground"
+                aria-hidden="true"></i>
+              Travel Product
+            </a>
+            <button class="col-md-3 col-sm-3 col-6 single-cat" type="button" id="dropdownMenu1" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h" aria-hidden="true"></i>
+              More
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <a class="dropdown-item" href="https://travellers.lk/product-category/restaurants/">Restaurants</a>
+              <a class="dropdown-item" href="https://travellers.lk/product-category/tourguides/">Tour Guides</a>
+              <a class="dropdown-item" href="https://travellers.lk/product-category/travelinsurance/">Travel
+                Insurance</a>
+              <a class="dropdown-item" href="https://travellers.lk/product-category/travellers-events/">Travellers
+                Events</a>
+              <a class="dropdown-item" href="https://travellers.lk/product-category/souvenir-shopping/">Souvenir
+                Shopping</a>
+              <a class="dropdown-item" href="https://travellers.lk/product-category/educational-consultant/">Education
+                &amp; Foreign Employments</a>
+            </div>
 
-    </body>
-    </html>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="DetailsSection">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12 left-side">
+
+          <div class="left-sign-in">
+            <img class="left-logo" src="Images/HomePageImages/top-travelles-logo.png" alt="image cap">
+            <div class="card-body">
+              <div class="sign-details">
+                <i class="fas fa-circle" aria-hidden="true"></i>
+                <p class="card-text">
+                  Inclusive and accessible hassle free travel marketplace for customers.
+                </p>
+              </div>
+              <div class="sign-details">
+                <i class="fas fa-circle" aria-hidden="true"></i>
+                <p class="card-text">
+                  Vendors could offer the best deals on travellers.lk and access a massive amount
+                  of customers.
+                </p>
+              </div>
+              <div class="sign-details">
+                <i class="fas fa-circle" aria-hidden="true"></i>
+                <p class="card-text">
+                  Join<span> <a href="https://travellers.lk">travellers.lk</a> </span>for
+                  all your travel and tour solutions.
+                </p>
+              </div>
+              <a href="https://travellers.lk/my-account" class="btn log-in">Log in</a>
+              <a href="https://travellers.lk/my-account" class="btn Register">Register</a>
+            </div>
+          </div>
+
+          <div class="Tour-Locator">
+            <a class="btn Tour-Locator1" href="https://travellers.lk/tour-locator">Tour
+              Locator</a>
+          </div>
+
+
+          <div class="top-destinations">
+            <h5 class="top-destinations-topic">Top Destinations</h5>
+            <div class="single-destination img-hover-zoom">
+              <div class="desti-detail"><a href="https://travellers.lk/whale-watching-hawaii/">
+                  <h5 class="desti topic">Hawai</h5>
+                </a>
+                <p class="desti topic2"></p>
+              </div>
+
+            </div>
+
+            <div class="single-destination img-hover-zoom">
+              <img width="251" height="141"
+                src="Images/HomePageImages/edward-arnold-eAW5l7nB5ao-unsplash.jpg"
+                class="top-desti wp-post-image" alt="">
+              <div class="desti-detail"><a href="https://www.travellers.lk/sri-lanka-2/">
+                  <h5 class="desti topic">Sri Lanka</h5>
+                </a>
+                <p class="desti topic2"></p>
+              </div>
+
+            </div>
+
+            <div class="single-destination img-hover-zoom">
+              <img width="251" height="141"
+                src="Images/HomePageImages/joshua-ang-Gf_KqXHU-PY-unsplash.jpg"
+                class="top-desti wp-post-image" alt="">
+              <div class="desti-detail"><a href="https://www.travellers.lk/great-wall-of-china/">
+                  <h5 class="desti topic">Singapore</h5>
+                </a>
+                <p class="desti topic2"></p>
+              </div>
+
+            </div>
+
+            <div class="single-destination img-hover-zoom">
+              <img width="251" height="141"
+                src="Images/HomePageImages/mathew-schwartz-gsllxmVO4HQ-unsplash.jpg"
+                class="top-desti wp-post-image" alt="">
+                
+              <div class="desti-detail"><a href="https://www.travellers.lk/japan/">
+                  <h5 class="desti topic">Thailand</h5>
+                </a>
+                <p class="desti topic2"></p>
+              </div>
+
+            </div>
+
+
+            <div class="text-center mt-4"><a href="https://travellers.lk/product-category/holiday-packages/"
+                class="btn log-in more-btn">Show More</a></div>
+          </div>
+
+        </div>
+
+        <!--Middle Section-->
+
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12 mid-side">
+
+          <div class="row travel-detail detail-two">
+
+            <div class="video">
+              <h5 class="video-header">To begin with <span>travellers.lk</span></h5>
+              <video controls="" autoplay="" muted="" loop="" id="video-player" title="To begin with travellers.lk"
+                __idm_id__="807495681">
+
+                <source src="https://travellers.lk/wp-content/themes/rehub-theme/css/img/video/video.mp4"
+                  type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+
+          </div>
+
+          <div class="video" style="margin-top: 30px;margin-bottom: -15px;">
+            <h5 class="video-header">Travellers Guide</h5>
+        </div>
+
+        </div>
+
+        <!--Right side Section-->
+
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12 right-side">
+
+          <div class="right-image-top">
+            <h5 class="top-ads-topic">Top Ads</h5>
+            <a href="/product-category/hotels/">
+              <div class="right-image"><img src="Images/HomePageImages/01.jpg" alt="img"
+                  data-pagespeed-url-hash="2215922677"
+                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+            </a>
+            <a href="/product-category/restaurants/">
+              <div class="right-image"><img src="Images/HomePageImages/02.jpg" alt="img"
+                  data-pagespeed-url-hash="2510422598"
+                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+            </a>
+            <a href="/product-category/travellers-events/">
+              <div class="right-image"><img src="Images/HomePageImages/03.jpg" alt="img"
+                  data-pagespeed-url-hash="2804922519"
+                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+            </a>
+            <a href="/product-category/rentalcars/">
+              <div class="right-image"><img src="Images/HomePageImages/04.jpg" alt="img"
+                  data-pagespeed-url-hash="3099422440"
+                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+            </a>
+            <a href="/product-category/flights/">
+              <div class="right-image"><img src="Images/HomePageImages/05.jpg" alt="img"
+                  data-pagespeed-url-hash="3393922361"
+                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></div>
+            </a>
+            <div class="text-center mt-4"><a href="https://travellers.lk/shop/" class="btn log-in more-btn">Show
+                More</a></div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+</body>
+
+</html>
