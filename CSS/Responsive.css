@@ -42,7 +42,66 @@
 } 
 
 @media only screen and (max-width: 991.9px){
-.top-bar-main {
+.top-bar-main { 
     display: block;
 }
+}
+
+@media only screen and (max-width: 559.9px){
+a.Things-to-do-see-all:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: #bfbfbf;
+    width: 25%;
+    margin-left: 15px;
+    top: 50%;
+}
+}
+
+
+
+
+.carousel-inner img {
+    max-width: 100%;
+  height: auto;
+ }
+
+ .c1 img {
+    max-width: 100%;
+    height: auto;
+ justify-content: center;
+ }
+
+ 
+ @media (min-width: 1200px) { 
+     .carousel-inner img{
+         width: 1350px;
+     height: 500px;
+     }
+     .c1 img {
+        max-width: 100%;
+        height: auto;
+     justify-content: center;
+     }
+ }
+ @media (min-width: 1920px) { 
+     .carousel-inner img{
+         width: 1920px;
+     height: 1080px;
+     }
+     .c1 img {
+        max-width: 100%;
+        height: auto;
+     justify-content: center;
+     }
+ }
+ @media (min-width: 768px) { /* for devices above 768px */
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        width: 25%;
+        max-width: 100%;
+    }
+    
+    
 }
