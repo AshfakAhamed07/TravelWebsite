@@ -467,8 +467,8 @@ a.Things-to-do-see-all {
 }
 .text1 a {
     margin-left: 20px;
-    font-size: 14px;
-    color: #5d5e60;
+    font-size: 13px;
+    color: #FAFAFA;
 }
 
 .text1 {
@@ -517,4 +517,133 @@ img {
     vertical-align: top;
     border: 0;
     border-style: none;
+}
+
+
+
+
+/*Footer Section*/
+
+/*Footer Top*/
+
+section.footer {
+    background-color: rgb(215, 213, 214);
+    padding: 20px 10px;
+    margin-top: 30px;
+    padding-bottom: 0;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12.footer-one {
+    border-bottom: 1px solid #887979;
+    padding-bottom: 10px;
+    float: left;
+}
+.col-12.footer-one img {
+    width: 120px;
+}
+.col-md-4.footer-menu {
+    float: right;
+    align-self: flex-end;
+}
+
+ul.footer-main {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+ul.footer-main li:first-child {
+    border-left: none;
+}
+
+ul.footer-main li {
+    list-style: none;
+    padding: 0px 12px;
+    border-left: 1px solid #797979;
+}
+
+ul.footer-main li a {
+    color: #797979;
+    font-weight: 600;
+}
+
+
+/*Second footer menu*/
+
+.col-12.footer-two {
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
+.col-12.footer-two {
+    padding: 10px 0px;
+}
+
+ul.footer-main {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/*Third footer menu*/
+
+.col-md-12.footer-menu-mid {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 10px;
+}
+
+
+
+/*Bottom footer menu*/
+section.footer-botom {
+    background-color: white;
+    padding: 20px 0px;
+}
+
+.elementor img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/*Bottom  menu*/
+section.bottom {
+    padding: 10px;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.footer p {
+    padding: 0;
+    margin: 0;
 }

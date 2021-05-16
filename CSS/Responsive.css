@@ -105,3 +105,52 @@ a.Things-to-do-see-all:after {
     
     
 }
+
+
+ /* footer section */
+@media only screen and (max-width: 767.9px){  
+.footer-one {
+    display: block;
+}}
+
+@media only screen and (max-width: 767.9px){
+.col-md-8.col-12.logo {
+    text-align: center;
+    padding-bottom: 20px;
+}
+}
+
+@media only screen and (max-width: 767.9px){
+.col-md-4.footer-menu.main-01 ul {
+    float: none;
+    justify-content: center;
+}
+}
+
+@media only screen and (max-width: 559.9px){
+ul.footer-main li a {
+    font-size: 12px;
+}}
+
+/*Second footer section*/
+
+@media only screen and (max-width: 767.9px){
+ul.footer-main.social-media {
+    justify-content: center;
+    padding: 10px;
+}}
+
+/*Bottom footer section*/
+
+@media (max-width: 1024px){
+.elementor-row {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1140px;
+}
+}
