@@ -487,18 +487,41 @@ a.Things-to-do-see-all {
     height: 100%;
   }
   
-  .carousel-control-prev-1 , .carousel-control-prev-icon {
-    left: 0; 
-  }
-  
- .carousel-control-next-1 , .carousel-control-next-icon{
-     right: 0;
+ 
+/*Owl Carousel*/
+ .CardTop{
+     height:160px;
+     width: 100%;
+     object-fit: cover;
  }
+
+ .owl-prev{
+     left: -30px;
+ }
+.owl-next{
+    right: -30px;
+}
+
+.owl-prev, .owl-next
+{
+    position: absolute;
+    top: 90px;
+}
+
+.owl-prev span ,.owl-next span{
+    font-size: 60px;
+    color: #212529;
+}
+
+.owl-theme , .owl-nav[class*="owl-"]:hover{
+    background: transparent;
+}
 
  /*.controls-top{
      text-align: center;
  }
 */
+
 
 
 /*Right side section*/
