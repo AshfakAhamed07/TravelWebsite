@@ -477,6 +477,13 @@ h5.caption1 {
     letter-spacing: 2px;
 }
 
+.caption2{
+    font-size: 13px;
+    color: rgb(88, 89, 91);
+    padding-left: 5px;
+}
+
+
 
 a.Things-to-do-see-all {
     background-color: #ff0013;
@@ -652,6 +659,13 @@ ul.footer-main li a {
     padding: 10px 0px;
 }
 
+.col-12 {
+    -webkit-box-flex: 0;
+  
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
 ul.footer-main {
     display: flex;
     margin: 0;
@@ -719,6 +733,12 @@ section.bottom {
 .FacebookCard{
     display: flex;
     position: relative;
+    margin-right: 2px;
+    margin-left: 10px;
+}
+
+.h5.FacebookCardDetails{
+    margin-left: 10px;
 }
 
 .FacebookCard img {
@@ -743,6 +763,7 @@ a.FacebookCardImage img {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+  
 }
 .far {
     font-weight: 400;
