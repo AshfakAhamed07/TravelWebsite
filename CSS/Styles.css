@@ -215,8 +215,10 @@ width: 80%;
 
 
 .single-cat {
-    font-size: 12px;
+    font-size: 14px;
     display: grid;
+    font-style:inherit;
+    font-weight:500;
 }
 
 .single-cat {
@@ -272,7 +274,7 @@ width: 80%;
 }
 
 .row {
-    background-color: #fff;
+   
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -291,6 +293,17 @@ width: 80%;
 
 
 /*Left side section*/
+
+.left-side{
+   border-right: #212529;
+   
+}
+
+
+.DetailsSection{
+    margin-right: 3px;
+    margin-left: 3px;
+}
 
 .col-12 {
     -webkit-box-flex: 0;
@@ -411,6 +424,10 @@ h5.top-destinations-topic {
 h5.desti.topic {
     color: white;
     padding-top: 5px;
+    text-align: center;
+    margin-bottom: 1px;
+   margin-top: 1px;
+    
 }
 .desti {
     padding: 0;
@@ -419,6 +436,7 @@ h5.desti.topic {
 
 p.desti.topic2 {
     font-size: 13px;
+    margin-bottom: 5px;
 }
 .img-hover-zoom img {
     transition: transform .5s ease;
