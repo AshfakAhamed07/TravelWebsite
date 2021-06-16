@@ -111,7 +111,10 @@ a.Things-to-do-see-all:after {
 @media only screen and (max-width: 767.9px){  
 .footer-one {
     display: block;
-}}
+}
+}
+
+
 
 @media only screen and (max-width: 767.9px){
 .col-md-8.col-12.logo {
@@ -202,3 +205,9 @@ ul.footer-main.social-media {
     
 }
 
+@media only screen and (max-width: 767.9px){
+.footer-five {
+    position: relative;
+    display: block;
+}
+}

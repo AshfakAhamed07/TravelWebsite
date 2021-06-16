@@ -629,6 +629,10 @@ section.footer {
     align-self: flex-end;
 }
 
+.col-md-4.footer-menu.main-01 ul {
+    float: right;
+}
+
 ul.footer-main {
     display: flex;
     margin: 0;
@@ -650,6 +654,7 @@ ul.footer-main li a {
 }
 
 
+
 /*Second footer menu*/
 
 .col-12.footer-two {
@@ -658,6 +663,24 @@ ul.footer-main li a {
 .col-12.footer-two {
     padding: 10px 0px;
 }
+
+.col-md-6.footer-menu {
+    float: left;
+}
+
+ul.footer-main.social-media li {
+    border-left: none;
+}
+
+ul.footer-main.second-menu {
+    float: right;
+}
+ul.footer-main li {
+    list-style: none;
+    padding: 0px 12px;
+    border-left: 1px solid #797979;
+}
+
 
 .col-12 {
     -webkit-box-flex: 0;
@@ -704,6 +727,8 @@ section.footer-botom {
 /*Bottom  menu*/
 section.bottom {
     padding: 10px;
+    background-color:  rgb(177, 177, 177);
+    text-align: center;
 }
 
 .footer {
